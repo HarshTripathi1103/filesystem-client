@@ -16,7 +16,7 @@ use std::io::Read;
 use std::path::PathBuf;
 
 #[derive(Parser)]
-#[command(author, version, display_name = "", about, long_about = None)]
+#[command(author, version, display_name = "filesage", about, long_about = None)]
 struct Cli {
     #[command(subcommand)]
     command: Option<Command>,
